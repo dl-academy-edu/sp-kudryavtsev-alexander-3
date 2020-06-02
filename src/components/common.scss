@@ -4,62 +4,20 @@
 @import "./button/button";
 @import "./link/link";
 
-body { 
-    
+.body {
   font-family: 'Open Sans', 'sans-serif';
-  font-family: 'Montserrat', 'sans-serif';
-  font-family: 'Crimson Text', 'serif';
-margin: 0; 
+  font-family: 'Gilroy', 'sans-serif';
 }
 
-a {
-   text-decoration: none; 
-  }
-html { 
-  box-sizing: border-box; 
-}
-*, *::before, *::after { 
-  box-sizing: inherit; 
-}
-
-img {
-   max-width: 100%;
-
-   
-}
 .container {
   margin: 0 auto;
   width: 100%;
-  max-width: 1180px;
-  @media (max-width: 768px) {
-    max-width: 678px;
-   
-    
- 
-  }
+  max-width: 1000px;
 }
-.pourple-link {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 22px;
-  color: #FFFFFF;
-  background-color: #000000;
+a {
+  text-decoration: none; 
+ }
+.li {
+  list-style-type: none;
   
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 161px;
-  min-height: 40px;
-  padding: 9px;
-
- 
-}
-.pourple-link:hover {
-  background-color: #C29974;
-}
-.pourple-link:active {
-
-  background-color: #CFAF91
 }
