@@ -1,6 +1,7 @@
 .header {
  
   &__all {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,8 +11,10 @@
   }
   
   &__nav {
-    display: flex;
+    width: 100%;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
     
 }
   &__style {
@@ -23,11 +26,16 @@
     color: #828282;
   }
   &__home {
+    width: 100%;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     color: #070707;
+  }
+  &__nav-menu {
+    width: 45%;
+    display: flex;
   }
 }
