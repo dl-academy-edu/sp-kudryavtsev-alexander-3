@@ -1,0 +1,22 @@
+.footer {
+  &__button {
+      background-color: initial;
+      border-radius: 30px;
+      border: 2.5px solid #070707;
+      padding: 10px 19px;
+  }  
+  &__button-column {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+
+  }
+  &__description {
+      display: flex;
+      justify-content: center;
+      font-family: 'Gilroy' ;
+      font-style: normal;
+      font-weight: normal;
+      color: #828282;
+  }
+}

@@ -15,18 +15,22 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
+    
     
 }
   &__style {
+    margin-left: 20px;
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
     color: #828282;
+    list-style-type: none;
   }
   &__home {
-    width: 100%;
+    
     font-family: 'Gilroy';
     font-style: normal;
     font-weight: bold;
@@ -35,7 +39,7 @@
     color: #070707;
   }
   &__nav-menu {
-    width: 45%;
+    
     display: flex;
   }
 }
