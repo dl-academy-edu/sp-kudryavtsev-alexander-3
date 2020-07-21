@@ -29,6 +29,10 @@
     color: #828282;
     list-style-type: none;
   }
+    :hover {
+      color: #070707;
+    }
+
   &__home {
     
     font-family: 'Gilroy';
@@ -38,6 +42,10 @@
     line-height: 22px;
     color: #070707;
   }
+    :hover {
+      color: #828282;
+    }
+  
   &__nav-menu {
     
     display: flex;

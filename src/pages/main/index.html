@@ -1,14 +1,118 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>мой сайт</title>
-</head>
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="../../common.css">  
+  <link rel="stylesheet" href="style.css">  
+  <link rel="stylesheet" href="../../static/fonts/stylesheet.css">
+  <link rel="stylesheet" href="/../common.css">
+  
+  <title>HOME</title>
+</head>    
 <body>
-    <h1>Занятие 1</h1>
-    <script src="./index.js"></script>
-        
+@@include('header/index.html')
+<section class="container ">
+  <img class="" src="../../static/images/Line.png" alt="line">
+  <div class="about">
+    <h1 class="about__name">Aleksandr<br>Kudryavtsev</h1>
+    <p class="about__description"> Future front-end developer 32 years old, Tolyatti </p>
+  </div>
+  <img class="about__img" src="../../static/images/189.jpg" alt="car">
+<div class="about__managment">
+  <button class="about__button">
+    <img src="../../static/images/left.png">
+  </button>
+    <div>
+      <img src="../../static/images/point.png">
+      <img src="../../static/images/point.png">
+      <img src="../../static/images/point.png">
+    </div>   
+    <button class="about__button">
+    <img src="../../static/images/right.png">
+  </button>
+</div>
+</section>
+
+<section class="second-section">
+  <h2 class="second-section__chapter">About me</h2>
+  <div>
     
+    <img class="second-section__cloud-1" src="../../static/images/cloud.png" >
+    <img class="second-section__cloud-2" src="../../static/images/cloud-2.png">
+    <img class="second-section__cloud-1" src="../../static/images/cloud.png">
+  </div>
+ 
+</section>
+<section class="skills container">
+  <h2 class="second-section__chapter">Skills</h2>
+  <p class="second-section__chapter">I work in such programs as</p>
+  <div class="skills__all">
+    <div class="skills__center">
+      <img class="" src="../../static/images/html.png" alt="html">
+      <p>HTML 5</p>
+      <div class="skills__program">
+        <p>85%</p>
+      <div class="skills__persent">
+        <img class="skills__persent-black" src="../../static/images/rectangle-black.png" alt="black">
+        <img class="skills__persent-white" src="../../static/images/Rectangle-white.png" alt="white">      
+      </div>
+        </div>  
+    </div>
+    <div class="skills__center">
+      <img class="" src="../../static/images/css.png" alt="html">
+      <p>CSS/SCSS</p>
+      <div class="skills__program">
+        <p>55%</p>
+        <div class="skills__persent">
+          <img class="skills__persent-black" src="../../static/images/rectangle-black.png" alt="black">
+          <img class="skills__persent-white" src="../../static/images/Rectangle-white.png" alt="white">      
+        </div>
+      </div>  
+    </div>
+    <div class="skills__center">
+      <img class="" src="../../static/images/JS.png" alt="html">
+      <p>JavaScript</p>
+      <div class="skills__program">
+        <p>5%</p>
+        <div class="skills__persent">
+          <img class="skills__persent-black" src="../../static/images/rectangle-black.png" alt="black">
+          <img class="skills__persent-white" src="../../static/images/Rectangle-white.png" alt="white">      
+        </div>
+      </div>  
+    </div>
+    <div class="skills__center">
+      <img class="" src="../../static/images/git.png" alt="html">
+      <p>Git/GitHub</p>
+      <div class="skills__program">
+        <p>15%</p>
+        <div class="skills__persent">
+          <img class="skills__persent-black" src="../../static/images/rectangle-black.png" alt="black">
+          <img class="skills__persent-white" src="../../static/images/Rectangle-white.png" alt="white">      
+        </div>
+      </div>  
+    </div>
+    <div class="skills__center">
+      <img class="" src="../../static/images/figma.png" alt="html">
+      <p>Figma</p>
+      <div class="skills__program">
+        <p>80%</p>
+        <div class="skills__persent">
+          <img class="skills__persent-black" src="../../static/images/rectangle-black.png" alt="black">
+          <img class="skills__persent-white" src="../../static/images/Rectangle-white.png" alt="white">      
+        </div>
+      </div>  
+    </div>
+  </div>  
+</section>
+<section class=" portfolio">
+  <h2 class="portfolio__article">Portfolio</h2>
+  <img class="portfolio__img" src="../../static/images/portfolio.png" alt="portfolio">
+
+</section>
+<button class="back-to-top back-to-top_js">
+  <img src="../../static/images/back-to-top.png" alt="back-to-top">
+</button>
+@@include('footer/index.html')
+<script src="./index.js"></script>        
 </body>
 </html>
