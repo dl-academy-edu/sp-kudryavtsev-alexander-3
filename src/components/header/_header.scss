@@ -1,0 +1,53 @@
+.header {
+ 
+  &__all {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__side {
+    width: 100%;
+  }
+  
+  &__nav {
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    
+    
+}
+  &__style {
+    margin-left: 20px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+    list-style-type: none;
+  }
+    :hover {
+      color: #070707;
+    }
+
+  &__home {
+    
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+  }
+    :hover {
+      color: #828282;
+    }
+  
+  &__nav-menu {
+    
+    display: flex;
+  }
+}
